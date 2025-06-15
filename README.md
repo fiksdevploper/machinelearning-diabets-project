@@ -33,7 +33,6 @@ Dataset yang digunakan adalah Pima Indians Diabetes Dataset, yang tersedia secar
 ├── diabetes_model.pkl
 └── README.md
 
-
 * `machine_learning_diabets.ipynb`: *Notebook* Jupyter utama yang berisi seluruh kode untuk analisis data, pelatihan model, dan evaluasi.
 * `diabetes_model.pkl`: File model Regresi Logistik yang telah dilatih dan disimpan.
 * `README.md`: File deskripsi proyek ini.
@@ -48,7 +47,14 @@ Proyek ini membutuhkan pustaka Python berikut:
 * `scikit-learn`
 * `joblib`
 
-## Hasil Model Machine Learning (Classification Report)
+Anda dapat menginstal semua dependensi ini menggunakan `pip`:
+
+```bash
+pip install pandas seaborn matplotlib scikit-learn joblib
+
+## Hasil Evaluasi Model
+
+Berikut adalah hasil evaluasi dari model klasifikasi:
 
 ### Confusion Matrix
 
@@ -58,3 +64,13 @@ Proyek ini membutuhkan pustaka Python berikut:
 | **Kelas 1** | 21      | 59      |
 
 Akurasi: 0.7143
+
+### Classification Report
+
+| Kelas     | Precision | Recall | F1-Score | Support |
+|-----------|-----------|--------|----------|---------|
+| **0** | 0.83      | 0.70   | 0.76     | 151     |
+| **1** | 0.57      | 0.74   | 0.64     | 80      |
+| **Accuracy**|           |        | 0.71     | 231     |
+| **Macro Avg**| 0.70      | 0.72   | 0.70     | 231     |
+| **Weighted Avg**| 0.74      | 0.71   | 0.72     | 231     |
