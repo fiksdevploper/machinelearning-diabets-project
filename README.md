@@ -49,12 +49,7 @@ Proyek ini membutuhkan pustaka Python berikut:
 
 Anda dapat menginstal semua dependensi ini menggunakan `pip`:
 
-```bash
-pip install pandas seaborn matplotlib scikit-learn joblib
-
 ## Hasil Evaluasi Model
-
-Berikut adalah hasil evaluasi dari model klasifikasi:
 
 ### Confusion Matrix
 
