@@ -48,7 +48,7 @@ Proyek ini membutuhkan pustaka Python berikut:
 * `scikit-learn`
 * `joblib`
 
-* Hasil Model Machine Learning (Classification Report)
+## Hasil Model Machine Learning (Classification Report)
   
 Acuraty: 0.7143
 [[106  45]
