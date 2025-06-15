@@ -50,13 +50,11 @@ Proyek ini membutuhkan pustaka Python berikut:
 
 ## Hasil Model Machine Learning (Classification Report)
 
+### Confusion Matrix
 
-    | Class | Precision | Recall | F1-Score | Support |
-    |-------|-----------|--------|----------|---------|
-    | 0     | 0.83      | 0.70   | 0.76     | 151     |
-    | 1     | 0.57      | 0.74   | 0.64     | 80      |
-    | **Accuracy** |           |        | **0.71** | **231** |
-    | **Macro Avg**| 0.70      | 0.72   | 0.70     | 231     |
-    | **Weighted Avg**| 0.74      | 0.71      | 0.72     | 231     |
+| Prediksi \ Aktual | Kelas 0 | Kelas 1 |
+|-------------------|---------|---------|
+| **Kelas 0** | 106     | 45      |
+| **Kelas 1** | 21      | 59      |
 
-    ```
+Akurasi: 0.7143
