@@ -48,9 +48,18 @@ Proyek ini membutuhkan pustaka Python berikut:
 * `scikit-learn`
 * `joblib`
 
+* Hasil Model Machine Learning (Classification Report)
+  
+Acuraty: 0.7143
+[[106  45]
+ [ 21  59]]
 
-Lisensi
-Proyek ini dilisensikan di bawah lisensi MIT. Lihat file LICENSE (jika ada, atau tambahkan jika diperlukan) untuk detail lebih lanjut.
+Classification Report
+              precision    recall  f1-score   support
 
+           0       0.83      0.70      0.76       151
+           1       0.57      0.74      0.64        80
 
-Sumber
+    accuracy                           0.71       231
+   macro avg       0.70      0.72      0.70       231
+weighted avg       0.74      0.71      0.72       231
